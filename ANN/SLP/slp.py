@@ -23,8 +23,6 @@ def main():
     output =sigmoid(net)
 
 
-
-
     # Clean formatted printing using vectorized operations
     print("\n Net Inputs (z): ---")
     print(np.round(net.ravel(), 5))
